@@ -5,13 +5,8 @@
     android:layout_height="match_parent"
     tools:context="com.example.qzl.hua_dong_shan_chu.MainActivity">
 
-    <com.example.qzl.hua_dong_shan_chu.SwipeLayout
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <!--item内容的布局-->
-        <include layout="@layout/layout_content"/>
-        <!--item删除区域的布局-->
-        <include layout="@layout/layout_delete"/>
-
-    </com.example.qzl.hua_dong_shan_chu.SwipeLayout>
+        android:layout_height="match_parent"/>
 </RelativeLayout>
